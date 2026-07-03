@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Gửi Nguyễn Phương Vy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petal-layer" aria-hidden="true"></div>
+
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="Điều hướng">
+      <a href="#letter">Lá thư</a>
+      <a href="#memories">Khoảnh khắc</a>
+      <a href="#promise">Lời hứa</a>
+    </nav>
+
+    <section class="hero-inner" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Nguyễn Đức Thuân gửi Nguyễn Phương Vy</p>
+        <h1 id="hero-title">Một lá thư xin được tìm hiểu em</h1>
+        <p class="hero-text">
+          Không phải là những lời quá lớn lao, chỉ là một lời nói thật lòng:
+          anh muốn được bước vào thế giới của Vy bằng sự tử tế, chậm rãi và chân thành.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#letter">Mở lá thư</a>
+          <a class="button ghost" href="#question">Câu hỏi nhỏ</a>
+        </div>
+      </div>
+
+      <div class="envelope-wrap" aria-label="Phong thư dành cho Vy">
+        <button class="envelope" type="button" aria-expanded="false">
+          <span class="envelope-flap"></span>
+          <span class="envelope-body">
+            <span class="seal">Vy</span>
+            <span class="envelope-line">09.12.2008</span>
+          </span>
+          <span class="paper-preview">
+            <span>Gửi Vy,</span>
+            <span>Anh có một điều muốn nói...</span>
+          </span>
+        </button>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="letter-section" id="letter">
+      <div class="section-heading">
+        <p class="eyebrow">Lá thư</p>
+        <h2>Gửi Nguyễn Phương Vy</h2>
+      </div>
+
+      <article class="letter-paper">
+        <p>Vy à,</p>
+        <p>
+          Anh là Nguyễn Đức Thuân, sinh ngày 04/05/2004. Hôm nay anh viết lá thư này
+          không phải để nói những điều thật hoa mỹ, mà để xin phép được tìm hiểu
+          Nguyễn Phương Vy, cô gái sinh ngày 09/12/2008, bằng tất cả sự nghiêm túc
+          và chân thành của anh.
+        </p>
+        <p>
+          Anh thích cách một người có thể khiến ngày bình thường trở nên đặc biệt
+          chỉ bằng một câu nói, một nụ cười, hay một sự xuất hiện rất khẽ. Nếu Vy cho
+          anh cơ hội, anh muốn được lắng nghe những điều em thích, nhớ những điều em
+          quan tâm, và ở cạnh em theo một cách không làm em áp lực.
+        </p>
+        <p>
+          Anh không hứa những điều quá xa xôi. Anh chỉ hứa sẽ tử tế, rõ ràng, biết
+          tôn trọng cảm xúc của em, biết chậm lại khi em cần, và biết cố gắng để mỗi
+          ngày em nhìn thấy ở anh một lý do nhỏ để yên tâm hơn.
+        </p>
+        <p>
+          Nếu trái tim Vy chưa sẵn sàng, anh vẫn sẽ tôn trọng câu trả lời của em.
+          Còn nếu Vy cũng thấy trong lòng có một chút dịu dàng khi nghĩ đến anh, thì
+          cho anh được bắt đầu hành trình tìm hiểu em nhé.
+        </p>
+        <p class="signature">
+          Nguyễn Đức Thuân<br>
+          <span>04/05/2004</span>
+        </p>
+      </article>
+    </section>
+
+    <section class="memories-section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">Những khoảnh khắc</p>
+        <h2>Một góc nhỏ dành riêng cho Vy</h2>
+      </div>
+      <div class="photo-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="promise-section" id="promise">
+      <div class="promise-panel">
+        <div>
+          <p class="eyebrow">Lời hứa nhỏ</p>
+          <h2>Anh sẽ thích em bằng sự tử tế</h2>
+        </div>
+        <ul class="promise-list">
+          <li>Không vội vàng, không làm em khó xử.</li>
+          <li>Luôn tôn trọng câu trả lời và cảm xúc của Vy.</li>
+          <li>Cố gắng trở thành một người để em có thể yên tâm tin tưởng.</li>
+          <li>Giữ mọi điều đẹp đẽ trong sáng, nghiêm túc và thật lòng.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="question-section" id="question" aria-labelledby="question-title">
+      <p class="eyebrow">Câu hỏi cuối thư</p>
+      <h2 id="question-title">Vy có cho anh một cơ hội được tìm hiểu em không?</h2>
+      <div class="answer-actions">
+        <button class="button primary" type="button" data-answer="yes">Cho anh cơ hội</button>
+        <button class="button ghost" type="button" data-answer="wait">Để Vy suy nghĩ thêm</button>
+      </div>
+      <p class="answer-message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Viết riêng cho Nguyễn Phương Vy, bằng tất cả sự chân thành của Nguyễn Đức Thuân.</p>
+    <a href="#top">Trở về đầu trang</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
